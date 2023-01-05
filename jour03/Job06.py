@@ -1,4 +1,7 @@
-alphabet = "abcdefghijklmnopqrstuvwxyz" * 10
+import string
+
+alphabet=string.ascii_lowercase
+alphabet= alphabet * 10
 
 i = 1
 
