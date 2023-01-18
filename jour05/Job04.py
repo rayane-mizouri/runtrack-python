@@ -1,6 +1,7 @@
+import string
 message = input()
 def cryptage(mot="", clé=0):
-    alphabet = "abcdefghijklmnopqrstuvwxyz"
+    alphabet = string.ascii_lowercase
     crypté = ""
 
     for l in mot.lower():
